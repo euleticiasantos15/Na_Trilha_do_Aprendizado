@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> Branch e Hospedagem</title>
+</head>
+<body>
+    <h1>Branches</h1>
+    <p>São ramificações de um projeto de software ou documento e tem como objetivo o desenvolvimeto de:</p>
+    <ul>
+        <li>Novas de funcionalidades;</li>
+        <li>Correção de problemas;</li>
+        <li>Alteração de código.</li>
+    </ul>
+
+    <dl>
+        <dt>Branch Master ou Main</dt>
+        <dd>braço principal de um projeto em um repositório.</dd>
+        <dt>Branch Secundária</dt>
+        <dd>braço secundário de um projeto em um repositório.</dd>
+    </dl>
+
+   <p> As equipes podem trabalhar paralelamente: </p>
+    <img src="./imgs/primeira.jpg" width="600" height="220">
+
+    
+    <h2>Como Utilizar Branches</h2>
+
+    <p>1° você precisa criar um novo repositório no GitHub:</p>
+    <img src="./imgs/CriandoNovoRep.jpg" width="350" height="350">
+
+    <p>2° de um nome ao seu novo repositório e não esqueça de mudar a licença, caso queira que fique público:</p>
+    <img src="./imgs/NomeAoRep.jpg" width="350" height="350">
+
+    <p>3° agora clique para publicar no GitHub.com:</p>
+    <img src="./imgs/TerceiroPassoRep.jpg" width="350" height="350">
+
+    <p>4° atualize sua página web para localizar seu novo repositório:<p>
+    <img src="./imgs/QuartoPassoRep.jpg" width="500" height="400">
+
+    <p>5° clique para abrir o Visual Studio Code:</p>
+    <img src="./imgs/QuintoPassoRep.jpg" width="350" height="350">
+
+    <p>6° agora vamos criar uma nova Branch Secundária</p>
+    <img src="./imgs/NovaBranch.jpg" width="600" height="350">
+
+    <p>7° nomeie sua nova Branch Secundária e clique para publicar no GitHub.com:<p>
+    <img src="./imgs/NomeieNovaB.jpg" width="400" height="350">
+
+    <p>8° agora vamos fazer a junção das Branches, inclua as secudárias na Branch Main e clique para publicar:</p>
+    <img src="./imgs/IncluirBMain.jpg" width="350" height="350">
+
+    <p>9° ao incluir a Secundária02 irá aparecer um conflito, clique para ver qual é o conflito e em seguida clique em "Accept Both Changes"</p>
+    <img src="./imgs/ConflitoB02.jpg" width="350" height="350">
+
+    <h1>Hospedagem</h1>
+    <p>O GitHub Pages oferece Hospedagem gratuita de sites. Basta criar uma nova conta e um repositório público e a URL será, por exemplo: <i>http://nomeusuário.github.io/repositorio</i></p>
+
+    <h2>Como Realizar Hospedagem de Sites</h2>
+
+    <p>1° entre no seu GitHub.com e escolha o repositório que deseja hospedar:</p>
+    <img src="./imgs/hosp1.jpg" width="500" height="350">
+
+    <p>2° clique em Definições (Settings):</p>
+    <img src="./imgs/hosp2.jpg" width="500" height="350">
+
+    <p>3° role para baixo e verifique se a Zona de Perigo (Danger Zone) está público, se não estiver mude a visibilidade e então clique no item Páginas GitHub (GitHub Pages): </p>
+    <img src="./imgs/hosp3].jpg" width="500" height="350">
+
+    <p>4° clicando em GitHub Pages defina qual Branch quer e salve, assim seu site será publicado: </p>
+    <img src="./imgs/hosp4.jpg" width="500" height="350">
+</body>
+</html>
